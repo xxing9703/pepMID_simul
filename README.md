@@ -7,7 +7,9 @@ This package contains the following:
 
 "Main_fitting" determines the peptide turnover rate (r) in batch mode, given the measured MID of newly synthesized peptide and MID for 2D labeled amino acide. 
 The measured isotope distribution is fitted to the linear equation below by least square fitting:
+
     MID_measured = MID_unlabeled * r + MID_labeled * (1 - r)
+    
 MID_labeled is calculated by the convolution of MID_unlabeled with the MID of 2D labeled peptide of its labeled amino acid composition.
 
 other subroutines: 
