@@ -1,6 +1,6 @@
 # pepMID_simul
 
-## descriptions
+## Descriptions
 This package contains the following:
 
 "peptide_mid.m" simulates the peptide mass isotopologue distribution (MID) for a given peptide in string format (e.g., 'AKRG'), and outputs the m/z and abundance for each isotopologue. The natural abundance for 13C, 15N, 2H, 17O, 18O, 32S, 33S and 36S are considered. The results are tested to be consistent with the online tool https://prospector.ucsf.edu/prospector/cgi-bin/msform.cgi?form=msisotope 
